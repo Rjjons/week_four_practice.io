@@ -13,7 +13,7 @@
         <nav>
             <div>
                 <section class="top">
-                    <ul>
+                    <ul class="links">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">More...</a></li>
@@ -147,7 +147,8 @@
                 centering elements horizontally.
             </h4>
             <p>
-                <strong>Both margin: auto and text-align: </strong> center can be used to center elements horizontally, but they operate
+                <strong>Both margin: auto and text-align: </strong> center can be used to center elements horizontally,
+                but they operate
                 differently and are applied in different contexts. Let's discuss the difference between them:
 
             </p>
@@ -196,15 +197,20 @@
                     </p>
 
                     <p>
-                        <strong>1. visible:</strong> This is the default value. Content that overflows the element's box is displayed
+                        <strong>1. visible:</strong> This is the default value. Content that overflows the element's box
+                        is displayed
                         outside the box, overlapping other content if necessary.
 
-                        <strong>2. hidden:</strong> Content that overflows the element's box is clipped and not displayed.
+                    <p>
+                        <strong>2. hidden:</strong> Content that overflows the element's box is clipped and not
+                        displayed.
+                    </p>
 
 
                     </p>
                     <p>
-                        <strong>3. scroll:</strong> Scrollbars are added to the element's box, allowing the user to scroll to view the
+                        <strong>3. scroll:</strong> Scrollbars are added to the element's box, allowing the user to
+                        scroll to view the
                         overflowing content.
 
                     </p>
@@ -213,6 +219,42 @@
 
 
             </div>
+    </main>
+
+    <main>
+        <div>
+            <section class="fmain">
+                <h4>
+                    How do you specify font families in CSS?
+                </h4>
+
+                <p>
+                    In CSS, you can specify font families using the font-family property. This property allows you to
+                    define
+                    a prioritized list of font family names or generic font family keywords that the browser should use
+                    to
+                    display text content. If the browser doesn't find the first font in the list, it will move on to the
+                    next font in the list until it finds a suitable font.
+
+                    Here are the different ways to specify font families in CSS:
+                </p>
+
+                <p>
+                    Specific Font Family Names:
+
+                    You can specify one or more specific font family names separated by commas. If a font family name
+                    contains spaces, it must be enclosed in quotation marks.
+                    Example: body {
+                    font-family: "Helvetica Neue", Arial, sans-serif;
+                    }
+
+                    In this example, the browser will first attempt to use the "Helvetica Neue" font. If it's not
+                    available,
+                    it will fall back to Arial, and if Arial is also not available, it will use the default sans-serif
+                    font.
+                </p>
+            </section>
+        </div>
     </main>
 
     <footer>
